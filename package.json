@@ -1,0 +1,34 @@
+{
+  "name": "aoctemplate",
+  "version": "0.1.0",
+  "description": "adsda",
+  "main": "aoc.js",
+  "author": "devdutt6",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "aoc": "./aoc.js",
+    "aocrun": "./aocrun.js"
+  },
+  "keywords": [
+    "Advent",
+    "AOC",
+    "aoc",
+    "hackathon"
+  ],
+  "files": [
+    "./aoc.js",
+    "./aocrun.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devdutt6/verifierjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devdutt6/verifierjs/issues"
+  },
+  "homepage": "https://github.com/devdutt6/verifierjs#readme",
+  "engines": {
+    "node": ">=10.0"
+  }
+}
