@@ -1,7 +1,7 @@
 {
   "name": "aoctemplate",
-  "version": "0.1.0",
-  "description": "adsda",
+  "version": "0.1.1",
+  "description": "A Template generator for Advent of Code hackathon",
   "main": "aoc.js",
   "author": "devdutt6",
   "license": "MIT",
@@ -14,7 +14,9 @@
     "Advent",
     "AOC",
     "aoc",
-    "hackathon"
+    "hackathon",
+    "template",
+    "generator"
   ],
   "files": [
     "./aoc.js",
@@ -22,12 +24,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/devdutt6/verifierjs.git"
+    "url": "https://github.com/devdutt6/aoctemplate.git"
   },
   "bugs": {
-    "url": "https://github.com/devdutt6/verifierjs/issues"
+    "url": "https://github.com/devdutt6/aoctemplate/issues"
   },
-  "homepage": "https://github.com/devdutt6/verifierjs#readme",
+  "homepage": "https://github.com/devdutt6/aoctemplate#readme",
   "engines": {
     "node": ">=10.0"
   }
