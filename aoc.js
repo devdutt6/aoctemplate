@@ -4,7 +4,7 @@ const { join } = require('node:path');
 const { mkdirSync, openSync, appendFileSync } = require('node:fs');
 
 // reading the folder name provided from cmd
-let folder = process.argv[2] ?? "defalt_name";
+let folder = process.argv[2] ?? "default_name";
 // reading the process's absolute path
 let path = join(process.cwd(), `${folder}`);
 
@@ -31,4 +31,4 @@ appendFileSync(join(path, `solution.js`),
 `);
 console.log("Added the demo code...");
 console.log("Template created successfully.");
-console.log(`now\n cd into the folder ${folder}`);
+console.log(`now\ncd into the folder ${folder}`);

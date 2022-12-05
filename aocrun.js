@@ -10,7 +10,7 @@ try{
   const { solution } = require(join(path, 'solution.js'));
   console.log("Starting the execution..");
   console.log("====================================================");
-  console.time('Elapsed')
+  console.time('Elapsed');
   // anonymous function
   (async () => {
     try{
