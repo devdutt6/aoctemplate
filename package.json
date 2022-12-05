@@ -1,6 +1,6 @@
 {
   "name": "aoctemplate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Template generator for Advent of Code hackathon",
   "main": "aoc.js",
   "author": "devdutt6",

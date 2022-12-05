@@ -4,8 +4,8 @@
 - It will automatically generate the `input.txt` file and `solution.js` file with the template code so you can directly start writing solution. You don't need to write the same code daily to import file and run it, i handeled it for you.
 - Just write your solution in `solution.js` file and run it using command `aocrun` with the character by which you want to split the filelines.
 
-![Node Version](https://img.shields.io/node/v/[aoctemplate](https://github.com/devdutt6/aoctemplate.git))
-[![License](https://img.shields.io/npm/l/[aoctemplate](https://github.com/devdutt6/aoctemplate.git))](https://cdn.jsdelivr.net/npm/[aoctemplate](https://github.com/devdutt6/aoctemplate.git)@0.1.0/LICENSE)
+[![NPM](https://img.shields.io/npm/l/aoctemplate)](https://cdn.jsdelivr.net/npm/aoctemplate@0.1.0/LICENSE)
+![node-current](https://img.shields.io/node/v/aoctemplate)
 
 ## Installation
 
@@ -19,13 +19,6 @@ npm install -g aoctemplate
 
 ```bash
 yarn add --global aoctemplate
-```
-
-Anyway if you don't want to install and directly run with the help of `npx` as shown below
-
-```bash
-npx aoc <FOLDER_NAME>
-npx aocrun <SEPARATOR_CHARACTER>
 ```
 
 ## Usage
