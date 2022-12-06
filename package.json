@@ -1,6 +1,6 @@
 {
   "name": "aoctemplate",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A Template generator for Advent of Code hackathon",
   "main": "aoc.js",
   "author": "devdutt6",
@@ -33,7 +33,7 @@
   "engines": {
     "node": ">=10.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "colorette": "^2.0.19"
   }
 }
