@@ -2,12 +2,12 @@
 // importing required modules.
 const { join } = require('node:path');
 const { readFileSync } = require('node:fs');
-const { blue, bold, white, yellow, dim, whiteBright } = require("colorette");
+const { blue, bold, white, yellow, dim, whiteBright, red, greenBright } = require("colorette");
 
 // reading absolute path of directory in which process is being executed.
-let path = process.cwd();
 // requiring the solution from solution file.
 try{
+  let path = process.cwd();
   const { solution } = require(join(path, 'solution.js'));
   console.log(yellow(bold("Starting the execution..")));
   console.log(dim(white("====================================================")));
@@ -29,5 +29,11 @@ try{
   console.timeEnd(blue('Elapsed'));
 }
 catch(err){
-  console.error(err);
+  if(err.code.toString() === "MODULE_NOT_FOUND" ){
+    console.log(red(`Cannot find the ${bold("solution.js")} in current directory.`));
+    console.log(greenBright("Hint: "), whiteBright('Are you sure you are in right directory!'));
+  }
+  else{
+    console.error(err);
+  }
 }
