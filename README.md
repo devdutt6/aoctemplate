@@ -1,8 +1,8 @@
 # Advent of Code
 
-- A Template generator for Advent of Code hackathon.
-- It will automatically generate the `input.txt` file and `solution.js` file with the template code so you can directly start writing solution. You don't need to write the same code daily to import file and run it, i handeled it for you.
-- Just write your solution in `solution.js` file and run it using command `aocrun` with the character by which you want to split the filelines.
+- A Template generator for Advent of Code hackathon :technologist:.
+- It will automatically generate the `input.txt` file and `solution.js` file with the template code so you can directly start writing solution :writing_hand:. You don't need to write the same code daily then import file and run solution on it, i handeled it for you :sunglasses:.
+- Just write your solution in `solution.js` file and run it using command `aocrun` with the character by which you want to split the filelines and it will run it :rocket:.
 
 [![NPM](https://img.shields.io/npm/l/aoctemplate)](https://cdn.jsdelivr.net/npm/aoctemplate@0.1.0/LICENSE)
 ![node-current](https://img.shields.io/node/v/aoctemplate)
@@ -18,13 +18,13 @@ npm install -g aoctemplate
 ```
 
 ```bash
-yarn add --global aoctemplate
+yarn add aoctemplate --global
 ```
 
 ## Usage
 <hr>
 
-So there are two commands one for template generation and other for running that template after you write your solution ofcourse.
+So there are :two: commands one for template generation and other for running that template after you write your solution ofcourse.
 
 ```bash
 aoc <FOLDER_NAME>
@@ -54,6 +54,6 @@ aocrun '\n'
 ## Bugs and Issues
 <hr>
 
-If you encounter any bugs or issues, feel free
-to [open an issue at github](https://github.com/devdutt6/[aoctemplate](https://github.com/devdutt6/aoctemplate.git)/issues) or email me to
-<devduttchudasama1339@gmail.com>. I also always like to hear from you, if you’re using my code.
+If you encounter any bugs :beetle: or issues :dart:, feel free
+to [open an issue at github](https://github.com/devdutt6/aoctemplate/issues) or email :email::mailbox_with_no_mail: me on
+<devduttchudasama1339@gmail.com>. I will always like to hear from you :deaf_man:.

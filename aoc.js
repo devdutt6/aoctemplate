@@ -2,7 +2,7 @@
 // importing required modules.
 const { join } = require('node:path');
 const { mkdirSync, openSync, appendFileSync } = require('node:fs');
-
+const { bold, yellow, blueBright, green, underline } = require("colorette");
 // reading the folder name provided from cmd
 let folder = process.argv[2] ?? "default_name";
 // reading the process's absolute path
@@ -10,11 +10,11 @@ let path = join(process.cwd(), `${folder}`);
 
 // creating the directory, input file and solution.js file
 mkdirSync(path);
-console.log(`Created directory ${folder}`);
+console.log(yellow(`Created directory ${bold(folder)}`), );
 openSync(join(path, `input.txt`), 'w');
-console.log(`Created a input file ${folder}/input.txt`);
+console.log(yellow(`Created a input file ${bold(`${folder}/input.txt`)}`));
 openSync(join(path, `solution.js`), 'w');
-console.log(`Created a solution file ${folder}/solution.js`);
+console.log(yellow(`Created a solution file ${bold(`${folder}/solution.js`)}`));
 appendFileSync(join(path, `solution.js`),
 `exports.solution = (file) => {
   try{
@@ -29,6 +29,6 @@ appendFileSync(join(path, `solution.js`),
   }
 };
 `);
-console.log("Added the demo code...");
-console.log("Template created successfully.");
-console.log(`now\ncd into the folder ${folder}`);
+console.log(blueBright("Added the demo code..."));
+console.log(green("Template created successfully."));
+console.log(`now\n${underline("cd")} into the directory ${bold(folder)}`);
